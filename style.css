@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+
+
+
+.Home {
+    background-image:  url("./Images/flowers.jpg");
+    background-size: cover;
+  
+}
+
+/* Home Page */
+
+.card-mb-3 {
+    /* border: 2px solid white; */
+    margin-top: 20%;
+    margin-left: 30%;
+    /* border-width: 2px 10px 2px 10px; */
+    /* padding: 50px; */
+    /* background-color: rgba(245, 245, 245, 0.4); */
+    font-family: 'Courgette', cursive;
+}
+
+/* About Me Page */
+
+#aboutme {
+    background-color: rgba(245, 245, 245, 0.4);
+    font-family: 'Courgette', cursive;
+}
+
+#aboutme::after {
+    content: "";
+    background-color: rgba(245, 245, 245, 0.4);
+    font-family: 'Courgette', cursive;
+    background: url(Images/ThinDiff.jpg);
+    opacity: 0.5;
+    margin: 0 0 0 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#skills {
+
+    background-color: rgba(245, 245, 245, 0.4);
+    font-family: 'Courgette', cursive;
+}
+  #skills::after {
+    content: "";
+    background: url(Images/light\ bulb.jpg);
+    opacity: 0.5;
+    margin: 0 0 0 0;;
+    position: absolute;
+    /* z-index: -1;    */
+  }
+
+/* Portfolio Page */
+  .container-all{
+  padding-top: 5%;
+}
+
+.card-img-top{
+  max-width: 350px;
+  max-height: 250px;
+ 
+}
+
+.card{
+ 
+  box-shadow: 10px 10px 5px grey;
+}
+
+/* /* Style the largest circle
+.circular-sb {
+    width: 250px;
+    border: 5px solid black;
+    padding: 80px 0px;
+    margin: 30px auto;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+    color: #00bfb6;
+  }  */
+  /* Now here we need a total of three circles, which we are going to incorporate into the parent circle */
+  /* .circle1 {
+    border: 5px solid black;
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: -35px;
+    bottom: 0px;
+  }
+  
+  .circle1:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 0px;
+    background: pink;
+  } */
+  /* Now style the child div element with */
+  /* .circle2 {
+    border: 5px solid black;
+    position: absolute;
+    width: 5px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    right: -85px;
+    bottom: -15px;
+  }
+  .circle3 {
+    border: 5px solid black;
+    position: absolute;
+    width: 5px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    right: -85px;
+    bottom: -15px;
+  } */
+
