@@ -40,6 +40,10 @@
     z-index: -1;
 }
 
+.container3{
+  padding-top: 5%;
+}
+
 #skills {
 
     background-color: rgba(245, 245, 245, 0.4);
