@@ -19,20 +19,25 @@
     /* border-width: 2px 10px 2px 10px; */
     /* padding: 50px; */
     /* background-color: rgba(245, 245, 245, 0.4); */
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
 }
 
 /* About Me Page */
 
+.card-title{
+  font-family: 'Courgette', cursive;
+}
+
+
 #aboutme {
     background-color: rgba(245, 245, 245, 0.4);
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
 }
 
 #aboutme::after {
     content: "";
     background-color: rgba(245, 245, 245, 0.4);
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
     background: url(Images/ThinDiff.jpg);
     opacity: 0.5;
     margin: 0 0 0 0;
@@ -47,7 +52,7 @@
 #skills {
 
     background-color: rgba(245, 245, 245, 0.4);
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
 }
   #skills::after {
     content: "";
